@@ -1,0 +1,30 @@
+.elementor-kit-2055{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-kit-2055 e-page-transition{background-color:#FFBC7D;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */body:not(.home) .woocommerce ul.products li.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 430px;
+}
+
+
+body:not(.home) .woocommerce ul.products li.product img {
+  min-height: 160px;
+  max-height: 160px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+body:not(.home) .woocommerce ul.products li.product .woocommerce-loop-product__title,
+body:not(.home) .woocommerce ul.products li.product .price,
+body:not(.home) .woocommerce ul.products li.product .star-rating {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+body:not(.home) .woocommerce ul.products li.product .button {
+  margin-top: auto;
+  align-self: center;
+}/* End custom CSS */
